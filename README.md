@@ -9,7 +9,7 @@ A personal portfolio website built with **HTML and CSS**, focusing on advanced C
 
 ## Live Demo
 
-[View Live Demo](...)
+[View Live Demo](https://esraasaeed-dev.github.io/advanced-css-portfolio/)
 
 ## Learning Context
 
