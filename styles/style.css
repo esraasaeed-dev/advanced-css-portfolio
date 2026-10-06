@@ -306,6 +306,10 @@ body,
   position: relative;
   align-items: flex-end;
   justify-self: end;
+  transition: transform 0.3s ease-in-out;
+}
+.bio__pic-content:hover {
+  transform: translateY(-3px) scale(1.06);
 }
 .bio__pic-content::before {
   content: "";
