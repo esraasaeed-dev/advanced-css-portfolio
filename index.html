@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Esraa Saeed</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <video class="video-loop" autoplay loop muted>
+        <source src="./video-loop.mp4" type="video/mp4" />
+      </video>
+
+      <header class="header">
+        <label for="menu" class="burger-menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+
+        <input id="menu" class="burger-menu__checkbox" type="checkbox" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a class="navigation__link navigation__bio" href="#bio">Bio</a>
+            </li>
+            <li>
+              <a class="navigation__link navigation__skills" href="#skills"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a class="navigation__link navigation__media" href="#media"
+                >Media</a
+              >
+            </li>
+            <li>
+              <a class="navigation__link navigation__projects" href="#projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a class="navigation__link navigation__Certificates" href="#Certificates"
+                >Certificates</a
+              >
+            </li>
+            <li>
+              <a
+                class="navigation__link navigation__contact"
+                href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input id="toggle" class="toggle__checkbox" type="checkbox" />
+          <label class="toggle__label" for="toggle"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="section bio">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I’m a Passionate Front-End Developer
+          </h1>
+          <p class="bio__objective">
+            I’m<span class="bio__name"> Esraa Saeed</span>, a Computer Science
+            student passionate about Web Development and building practical
+            projects while continuously learning and growing.
+          </p>
+          <a class="bio__links say-hi-link" href="#contact">Say Hi</a>
+          <a
+            class="bio__links find-out-link"
+            href="./assets/Esraa_Saeed_Abdullah_CV.pdf"
+            target="_blank"
+          >
+            Download CV <span class="bio__arrow">↓</span>
+          </a>
+        </div>
+        <div class="bio__pic-content">
+          <img
+            class="bio__pic"
+            src="./images/personal-pic.png"
+            alt="personal pic of Esraa saeed"
+          />
+        </div>
+      </section>
+
+      <section id="skills" class="section skills section--with-bg">
+        <h2 class="h2-heading">Skills</h2>
+
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h2 class="skills__title">HTML</h2>
+            <span class="skills__years">Intermediate</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">CSS</h2>
+            <span class="skills__years">Intermediate</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Javascript</h2>
+            <span class="skills__years">Beginner</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">TypeScript</h2>
+            <span class="skills__years">Beginner</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Angular</h2>
+            <span class="skills__years">Beginner</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Bootstrap</h2>
+            <span class="skills__years">Beginner</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Git & GitHub</h2>
+            <span class="skills__years">Intermediate </span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="media" class="section media">
+        <video
+          class="media__video"
+          src="./video.mp4"
+          poster="./images/thumbnail.jpg"
+          controls
+        ></video>
+      </section>
+
+      <section id="projects" class="section projects">
+        <h2 class="h2-heading">
+          MY FEATURED <br />
+          PROJECTS
+        </h2>
+        <div class="projects__main">
+          <img
+            class="projects__img responsive-img"
+            src="./images/project-1.jpg"
+            alt="Spotly"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">Spotly</h3>
+            <p class="projects__description">
+              Spotly is an event management and booking platform that helps
+              users discover and book events, while providing organizers with
+              tools to manage their events and bookings. I worked on the
+              Organizer Front-End, building pages such as the Dashboard, Events,
+              Bookings, Earnings, and Profile using Angular.
+            </p>
+            <a
+              class="projects__link"
+              href="https://github.com/aya878/Spotly"
+              target="_blank"
+              >GetHub Link</a
+            >
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">Python Expense Tracker</h3>
+            <p class="projects__description">
+              A desktop application built with Python and Tkinter to help users
+              track and manage their expenses. The application includes expense
+              records, total calculations, and currency conversion using an
+              external API, with a simple and user-friendly interface.
+            </p>
+            <a
+              class="projects__link"
+              href="https://github.com/esraasaeed-dev/python-expense-tracker"
+              target="_blank"
+              >GetHub Link</a
+            >
+          </div>
+          <img
+            class="projects__img responsive-img"
+            src="./images/project-2.jpg"
+            alt="Python Expense Tracker"
+          />
+        </div>
+      </section>
+
+      <section id="Certificates" class="section Certificates section--with-bg">
+        <h2 class="h2-heading">
+          SOME OF <br />
+          MY CERTIFICATES.
+        </h2>
+        <div class="certificates__opinions">
+          <div class="certificates__wrapper">
+            <p class="certificates__opinion">
+              <img class="certificate" src="./images/Certificate1.png" />
+              
+            </p>
+            <p class="certificates__opinion">
+              <img class="certificate" src="./images/Certificate2.png"  />
+
+              
+            </p>
+            <p class="certificates__opinion">
+              <img  class="certificate" src="./images/Certificate3.png"  />
+            </p>
+            <p class="certificates__opinion">
+              <img class="certificate" src="./images/Certificate4.png" />
+            </p>
+            <p class="certificates__opinion">
+              <img class="certificate" src="./images/Certificate5.png"  />
+            </p>
+            
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div>
+          <p class="contact__description">
+            Feel free to reach out to me any time. I prefer to talk over email,
+            especially since we may be a few time zones away.
+          </p>
+
+          <a
+            href="mailto: Esraa Saeed Abdallah@gmail.com"
+            class="contact__email"
+            >Esraa Saeed Abdallah@gmail.com</a
+          >
+
+          <div class="contact__socials">
+            <a class="contact__social" href="#">
+              <img src="./images/brand/facebook.svg" alt="facebook" />
+            </a>
+            <a class="contact__social" href="#">
+              <img src="./images/brand/instagram.svg" alt="instagram.svg" />
+            </a>
+            <a class="contact__social" href="#">
+              <img src="./images/brand/youtube.svg" alt="youtube" />
+            </a>
+            <a
+              class="contact__social"
+              href="https://github.com/esraasaeed-dev"
+              target="_blank"
+            >
+              <img src="./images/brand/github.svg" alt="github" />
+            </a>
+
+            <a
+              class="contact__social"
+              href="https://www.linkedin.com/in/esraa-saeed-abdullah/"
+              target="_blank"
+            >
+              <img src="./images/brand/LinkedIn.svg" alt="LinkedIn.svg" />
+            </a>
+          </div>
+        </div>
+
+        <div class="contact__formContent">
+          <h2 class="h2-heading">
+            Let’s Work <br />
+            Together!
+          </h2>
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                type="text"
+                class="contact__input"
+                name="name"
+                placeholder="Full Name"
+                required
+              />
+              <input
+                type="tel"
+                class="contact__input"
+                placeholder="Phone No."
+                name="tel"
+                required
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+              />
+            </div>
+            <textarea
+              class="contact__input contact__textarea"
+              name="message"
+              placeholder="Your Message"
+              rows="1"
+              required
+            ></textarea>
+            <input type="submit" class="contact__button" value="Send Message" />
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">© 2026 by Esraa Saeed</footer>
+    </div>
+  </body>
+</html>
