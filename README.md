@@ -1,11 +1,20 @@
 # Advanced CSS Portfolio
 
-A personal portfolio website built with **HTML and CSS**, focusing on advanced CSS concepts, responsive design, and layout techniques.
+A responsive personal portfolio website built with **HTML, CSS, and Sass (SCSS)**, focusing on advanced styling, reusable styles, and responsive layouts.
 
-## Technologies
+## Technologies & Concepts
 
 * HTML
 * CSS
+* Sass (SCSS)
+* Modular Stylesheets
+* Sass Mixins
+* CSS Grid & Flexbox
+* CSS Variables
+* Responsive Design
+* Media Queries
+* CSS Animations & Transitions
+* Light & Dark Themes
 
 ## Live Demo
 
